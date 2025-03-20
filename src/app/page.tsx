@@ -8,12 +8,12 @@ export default function Home() {
       {/* Background Image */}
       <div className="fixed inset-0 z-0">
         <Image
-          src="/images/background.png" // Ensure this is inside `public/`
+          src="/images/background.png" 
           alt="Background"
-          layout="fill" // Ensures full coverage
-          objectFit="cover" // Prevents white spaces
+          layout="fill" 
+          objectFit="cover" 
           quality={100}
-          className="opacity-50" // Adjust transparency here
+          className="opacity-50" 
         />
       </div>
 
