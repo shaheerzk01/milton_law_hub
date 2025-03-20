@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Button from "../components/button";
+
 export default function Home() {
   return (
     <div className="relative h-screen w-screen flex flex-col justify-center items-center text-center">
