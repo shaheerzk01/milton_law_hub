@@ -4,16 +4,31 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen text-center">
-      <Image
-        src="/images/logo.png" // Must be inside `public/`
-        alt="Under Construction"
-        width={160} // Ensure width & height are fixed
-        height={160}
-        priority // Ensures fast load
-        className="mb-4"
-      />
-      <h1 className="text-4xl font-bold">Website is under construction</h1>
+    <div className="relative h-screen w-screen flex flex-col justify-center items-center text-center">
+      {/* Background Image */}
+      <div className="fixed inset-0 z-0">
+        <Image
+          src="/images/background.png" // Ensure this is inside `public/`
+          alt="Background"
+          layout="fill" // Ensures full coverage
+          objectFit="cover" // Prevents white spaces
+          quality={100}
+          className="opacity-50" // Adjust transparency here
+        />
+      </div>
+
+      {/* Foreground Content */}
+      <div className="relative z-10 flex flex-col items-center">
+        <Image
+          src="/images/logo.png"
+          alt="Under Construction"
+          width={160}
+          height={160}
+          priority
+          className="mb-4"
+        />
+        <h1 className="text-4xl font-bold text-black mt-10">Website is under construction</h1>
+      </div>
     </div>
   );
 }
