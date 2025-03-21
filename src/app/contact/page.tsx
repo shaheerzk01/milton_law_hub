@@ -45,7 +45,7 @@ export default function ComingSoon() {
             <div className="flex flex-row items-center space-x-2 justify-center bg-gray-200 rounded-lg shadow-md p-2">
               <FaLinkedin size={18} className="text-gray-600" />
               <a href="https://www.linkedin.com/company/milton-hobbs/">
-                <span>Connect LinkedIn</span>
+                <span>LinkedIn</span>
               </a>
             </div>
           </div>
