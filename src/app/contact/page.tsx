@@ -5,7 +5,6 @@ import { MdEmail } from "react-icons/md";
 export default function ComingSoon() {
   return (
     <div className="w-full h-screen flex flex-col p-4">
-
       <div className="relative h-[45vh] w-full bg-gray-700 flex flex-col items-center justify-center text-white text-center px-4">
         <FaClock className="text-6xl sm:text-8xl text-gray-300 animate-pulse mb-4 drop-shadow-lg" />
 
@@ -37,7 +36,7 @@ export default function ComingSoon() {
 
           {/* Centered Contact Buttons */}
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 w-full max-w-md mx-auto">
-          <div className="flex flex-row items-center space-x-2 justify-center bg-gray-200 rounded-lg shadow-md p-2">
+            <div className="flex flex-row items-center space-x-2 justify-center bg-gray-200 rounded-lg shadow-md p-2">
               <MdEmail size={18} className="text-gray-600" />
               <a href="mailto:contact@miltonhobbs.com">
                 <span>contact@miltonhobbs.com</span>
@@ -46,7 +45,7 @@ export default function ComingSoon() {
             <div className="flex flex-row items-center space-x-2 justify-center bg-gray-200 rounded-lg shadow-md p-2">
               <FaLinkedin size={18} className="text-gray-600" />
               <a href="https://www.linkedin.com/company/milton-hobbs/">
-                <span>Connect Linkdin</span>
+                <span>Connect LinkedIn</span>
               </a>
             </div>
           </div>
