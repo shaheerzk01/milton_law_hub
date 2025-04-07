@@ -26,12 +26,12 @@ export default function Home() {
           className="mb-4"
         />
         <h1 className="text-4xl font-extrabold text-black mt-10 text-shadow-white">
-          Website is under construction
+          Website Under Construction
         </h1>
 
         <Button
           text="Contact Us"
-          onClick={() => (window.location.href = "/contact")}
+          onClick={() => window.open("/contact", "_blank")}
           className="mt-10"
         />
       </div>
